@@ -1,9 +1,9 @@
-package co.edu.sena.ConsultoriaEstructuralJCCC.controller;
+package com.co.jccc.ConsultoriaEstructuralJCCC.Controller;
 
-import co.edu.sena.springmvc2242753.beans.Login;
-import co.edu.sena.springmvc2242753.beans.User;
-import co.edu.sena.springmvc2242753.exceptions.ApplicationException;
-import co.edu.sena.springmvc2242753.repository.UserRepository;
+import com.co.jccc.ConsultoriaEstructuralJCCC.Beans.login;
+import com.co.jccc.ConsultoriaEstructuralJCCC.Beans.User;
+import com.co.jccc.ConsultoriaEstructuralJCCC.Exceptions.ApplicationException;
+import com.co.jccc.ConsultoriaEstructuralJCCC.Repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ExceptionHandler;
