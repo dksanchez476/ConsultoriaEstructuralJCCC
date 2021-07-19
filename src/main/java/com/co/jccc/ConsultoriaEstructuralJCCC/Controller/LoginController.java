@@ -20,7 +20,7 @@ public class LoginController {
     public String login(@ModelAttribute("login") Login login){
         User user  = userRepository.searchByName(login.getUsername());
         if(user==null){
-            throw new ApplicationException("User not found");
+            throw new ApplicationException("El usuario no se encuentra registrado");
         }
         return "search";
     }

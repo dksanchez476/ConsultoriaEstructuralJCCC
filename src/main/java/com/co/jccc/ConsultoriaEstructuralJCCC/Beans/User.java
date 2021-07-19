@@ -59,11 +59,11 @@ public class User {
         this.password = password;
     }
 
-    public TypeUser getGender() {
+    public TypeUser getTypeUser() {
         return gender;
     }
 
-    public void setGender(TypeUser gender) {
+    public void setTypeUser(TypeUser gender) {
         this.gender = gender;
     }
 
