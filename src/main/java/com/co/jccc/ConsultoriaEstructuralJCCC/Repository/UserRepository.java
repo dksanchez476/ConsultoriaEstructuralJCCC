@@ -12,7 +12,7 @@ public interface UserRepository extends CrudRepository <User, Integer>{
 
         @Query("select u from User u where u.username=:name")
         public User searchByName(@Param("name") String username);
-        @Query("create u from CrearActividad 'activityname','activitydescription'")
-        public CrearActividad SaveActividad(@Param("name") String activityname);
+        @Query("create u from CrearActividad VALUE 'nameA'")
+        public CrearActividad SaveActividad(@Param("nameA") String activityname);
     }
 
