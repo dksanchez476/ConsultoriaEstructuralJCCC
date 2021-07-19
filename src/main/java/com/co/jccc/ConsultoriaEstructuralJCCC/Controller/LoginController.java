@@ -1,6 +1,6 @@
 package com.co.jccc.ConsultoriaEstructuralJCCC.Controller;
 
-import com.co.jccc.ConsultoriaEstructuralJCCC.Beans.login;
+import com.co.jccc.ConsultoriaEstructuralJCCC.Beans.Login;
 import com.co.jccc.ConsultoriaEstructuralJCCC.Beans.User;
 import com.co.jccc.ConsultoriaEstructuralJCCC.Exceptions.ApplicationException;
 import com.co.jccc.ConsultoriaEstructuralJCCC.Repository.UserRepository;
