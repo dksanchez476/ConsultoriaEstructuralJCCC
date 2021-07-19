@@ -20,7 +20,6 @@ public class CrearActividadController {
     public CrearActividadController AddActividad(@Valid CrearActividadController crearActividadController) {
         return userRepository.SaveActividad(crearActividadController); 
     }
-
     @ExceptionHandler(ApplicationException.class)
     public String handleException(){
         System.out.println("in exception handler of Login Controller");
