@@ -1,6 +1,7 @@
 package com.co.jccc.ConsultoriaEstructuralJCCC.Repository;
 
 import com.co.jccc.ConsultoriaEstructuralJCCC.Beans.User;
+import com.co.jccc.ConsultoriaEstructuralJCCC.Beans.CrearActividad;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
@@ -11,6 +12,7 @@ public interface UserRepository extends CrudRepository <User, Integer>{
 
         @Query("select u from User u where u.username=:name")
         public User searchByName(@Param("name") String username);
-
+        @Query("create u from CrearActividad 'activityname','activitydescription'")
+        public CrearActividad SaveActividad(@Param("name") String activityname);
     }
 
