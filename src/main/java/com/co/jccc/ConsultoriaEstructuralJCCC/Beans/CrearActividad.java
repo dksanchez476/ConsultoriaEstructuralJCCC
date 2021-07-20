@@ -1,7 +1,10 @@
 package com.co.jccc.ConsultoriaEstructuralJCCC.Beans;
-
+import javax.persistence.*;
 public class CrearActividad{
     
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
     private String activityname;
     private String activitydescription;
 
