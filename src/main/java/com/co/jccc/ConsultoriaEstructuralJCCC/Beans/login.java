@@ -1,6 +1,5 @@
 package com.co.jccc.ConsultoriaEstructuralJCCC.Beans;
 
-
 public class Login{
     private String username;
     private String password;
