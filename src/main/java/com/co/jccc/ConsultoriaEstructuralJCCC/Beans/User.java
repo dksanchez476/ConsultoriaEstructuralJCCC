@@ -13,13 +13,15 @@ public class User {
 
     @Id
     private int id;
+    private String Nombre;
+    private String Apellido;
     @Pattern(regexp = "(([a-zA-Z0-9]).{5,10})", message = "{username.cannot.be.less.than.five.characters}")
     private String username;
-
+    private String Correo;
     private String password;
 
     @Enumerated(EnumType.STRING)
-    private TypeUser gender;
+    private TypeUser TypeUser;
 
     @NotNull(message = "{not.null}")
     private String activity;

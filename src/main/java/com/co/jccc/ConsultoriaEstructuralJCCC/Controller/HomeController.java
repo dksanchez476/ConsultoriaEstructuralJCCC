@@ -15,11 +15,11 @@ public class HomeController {
         return "index";
     }
 
-    //mapeo ir a buscar
-    @GetMapping("/goToSearch")
-    public String goToSearch(){
-        System.out.println("Ir a la pagina de busqueda");
-        return "search";
+    //mapeo ir a Actividad
+    @GetMapping("/goToActividad")
+    public String goToActividad(){
+        System.out.println("Ir al Modulo Actividad");
+        return "Actividad";
     }
 
     //mapeo ir a Login
