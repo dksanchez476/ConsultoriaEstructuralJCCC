@@ -10,5 +10,5 @@ import org.springframework.stereotype.Repository;
 public interface PublicarActividadRepository extends CrudRepository <PublicarActividad, String>{
 
         @Query("insert into PublicarActividad VALUES 'namePublicar'")
-        public PublicarActividad SavePublicacion(@Param("namePublicar") String activityname);
+        public PublicarActividad SavePublicacion(@Param("namePublicar") String NombreProyecto);
     }
