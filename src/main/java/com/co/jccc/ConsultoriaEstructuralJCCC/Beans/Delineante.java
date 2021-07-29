@@ -1,4 +1,3 @@
-gi
 package com.co.jccc.ConsultoriaEstructuralJCCC.Beans;
 import javax.persistence.*;
 
