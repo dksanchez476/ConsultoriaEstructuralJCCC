@@ -13,7 +13,7 @@ public class Delineante{
     private String FechaNacimiento;
     private String TipoIdentificacion;
     private String No_Documento;
-    private String telefono;
+    private String telefo;
     private String Correo;
     private String Foto;
     private String EstadoDelineante;
