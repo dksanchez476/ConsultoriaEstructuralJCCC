@@ -1,4 +1,4 @@
-package com.co.jccc.ConsultoriaEstructuralJCCC.Controller;
+/*package com.co.jccc.ConsultoriaEstructuralJCCC.Controller;
 
 import com.co.jccc.ConsultoriaEstructuralJCCC.Beans.PublicarActividad;
 import com.co.jccc.ConsultoriaEstructuralJCCC.Exceptions.ApplicationException;
@@ -29,3 +29,4 @@ public class PublicarActividadController {
     }
 
 }
+*/

@@ -17,7 +17,7 @@ public class EncargadoProyecto {
         return Id_Encargado_Proyecto;
     }
     public void setId(int Id_EncargadoProyecto) {
-        this.Id_Encargado_Proyecto = Id_Encargado_Proyecto;
+        this.Id_Encargado_Proyecto = Id_EncargadoProyecto;
     }
 
     public String getNombre_Encargado() {
@@ -31,7 +31,7 @@ public class EncargadoProyecto {
         return Nombre_Proyecto;
     }
     public void setNombre_Proyecto(String Nombre_Proyecto) {
-        this.Nombre_Encargado = Nombre_Encargado;
+        this.Nombre_Proyecto = Nombre_Proyecto;
     }
 
     public String getFecha_de_inicio() {

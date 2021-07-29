@@ -1,3 +1,4 @@
+/*
 package com.co.jccc.ConsultoriaEstructuralJCCC.Repository;
 
 import com.co.jccc.ConsultoriaEstructuralJCCC.Beans.User;
@@ -12,4 +13,4 @@ public interface UserRepository extends CrudRepository <User, String>{
         @Query("select u from User u where u.username=:name")
         public User searchByName(@Param("name") String username);
     }
-
+*/
