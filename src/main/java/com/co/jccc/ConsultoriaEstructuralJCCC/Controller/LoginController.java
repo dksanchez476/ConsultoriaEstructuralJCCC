@@ -1,4 +1,4 @@
-package com.co.jccc.ConsultoriaEstructuralJCCC.Controller;
+/*package com.co.jccc.ConsultoriaEstructuralJCCC.Controller;
 
 import com.co.jccc.ConsultoriaEstructuralJCCC.Beans.Login;
 import com.co.jccc.ConsultoriaEstructuralJCCC.Beans.User;
@@ -32,3 +32,4 @@ public class LoginController {
     }
 
 }
+*/

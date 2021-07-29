@@ -1,3 +1,5 @@
+package com.co.jccc.ConsultoriaEstructuralJCCC.Beans;
+
 public class Ingeniero{
     private int id_ingeniero;
     private String nombreIngeniero;

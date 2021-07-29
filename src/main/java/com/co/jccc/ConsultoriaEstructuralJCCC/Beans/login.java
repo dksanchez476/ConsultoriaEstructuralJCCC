@@ -1,4 +1,4 @@
-package com.co.jccc.ConsultoriaEstructuralJCCC.Beans;
+/*package com.co.jccc.ConsultoriaEstructuralJCCC.Beans;
 
 public class Login{
     private String username;
@@ -20,4 +20,4 @@ public class Login{
     public void setPassword(String password) {
         this.password = password;
     }
-}
+}*/
