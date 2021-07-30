@@ -1,5 +1,8 @@
 package com.co.jccc.ConsultoriaEstructuralJCCC.Beans;
 
+import javax.persistence.Entity;
+
+@Entity
 public class TipoProyecto {
 
     private int Id_TipoProyceto;

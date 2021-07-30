@@ -1,8 +1,11 @@
 package com.co.jccc.ConsultoriaEstructuralJCCC.Beans;
 
+import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
-
+@Entity
+@Table(name="Asistencia")
 public class Asistencia {
     @Id
     private int Id_Asistencia;

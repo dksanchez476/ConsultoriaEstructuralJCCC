@@ -1,4 +1,4 @@
-package com.co.jccc.ConsultoriaEstructuralJCCC.Beans;
+/*package com.co.jccc.ConsultoriaEstructuralJCCC.Beans;
 
 import com.sun.org.apache.xpath.internal.operations.String;
 
@@ -66,3 +66,4 @@ public class Administrador {
 
 
 }
+*/

@@ -1,4 +1,4 @@
-package com.co.jccc.ConsultoriaEstructuralJCCC.Beans;
+/*package com.co.jccc.ConsultoriaEstructuralJCCC.Beans;
 
 public class Ingeniero{
     private int id_ingeniero;
@@ -53,3 +53,4 @@ public class Ingeniero{
         this.foto  =  foto ;
     }
 }
+*/
