@@ -1,5 +1,8 @@
 package com.co.jccc.ConsultoriaEstructuralJCCC.Beans;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Grupos{
     private int id_Grupo;
     private int id_proyecto;
@@ -27,3 +30,4 @@ public class Grupos{
         this.fechaDesactivacion  = fechaDesactivacion ;
     }
  }
+ 
